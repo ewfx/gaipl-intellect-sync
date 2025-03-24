@@ -14,6 +14,16 @@ const Header = () => {
           </Link>
           <div className="hidden md:flex items-center space-x-4">
             <nav className="flex space-x-4">
+            <Link 
+                to="/" 
+                className={`px-3 py-2 rounded-md transition-colors ${
+                  location.pathname === '/' 
+                    ? 'bg-white/20 text-white' 
+                    : 'text-blue-100 hover:bg-white/10 hover:text-white'
+                }`}
+              >
+                Home
+              </Link>
               <Link 
                 to="/dashboard" 
                 className={`px-3 py-2 rounded-md transition-colors ${
