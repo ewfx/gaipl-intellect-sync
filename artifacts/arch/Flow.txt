@@ -1,0 +1,12 @@
+Flow:
+
+Flow Diagram Components:
+User (Frontend UI Portal) → User inputs a query.
+
+Backend API Layer → Processes the request and sends it to the model.
+
+Hugging Face Model (Fine-tuned LLM) → Processes the input and generates a response.
+
+Backend API Layer → Formats and returns the response to the UI.
+
+UI Portal → Displays the result to the user.
